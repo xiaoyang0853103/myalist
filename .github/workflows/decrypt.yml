@@ -11,7 +11,7 @@ name: TVBox Decrypt
 
   # 当关键文件变更时触发
   push:
-    branches: [ main, master ]
+    分支: [ main, master ]
     paths:
       - 'url.txt'
       - 'decrypt.py'
@@ -89,4 +89,4 @@ jobs:
           live.txt
           live_report.json
         retention-days: 30
-        if-no-files-found: warn
+        if-no-files-found: warn 
